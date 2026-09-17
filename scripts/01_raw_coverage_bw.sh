@@ -13,8 +13,6 @@
 # Produces the raw total coverage bigWigs that feed the Gaussian HMM:
 #   1) bamCoverage at 1 bp, no normalization
 #   2) bigwigCompare mean-binned to 100 bp
-# This mirrors Liebe's method 2 for 100 bp bins ("binned outputs of 1 bp
-# separately to get average pileup per bin", handover PDF p.3).
 #
 # ChIP-seq-specific notes vs. the ATAC original (parameters kept identical
 # on purpose):

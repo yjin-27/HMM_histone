@@ -1,0 +1,21 @@
+# data -- large, derived, or downloaded
+data/
+toy/data/
+toy/data_*/
+toy/pyhhmm*/
+*.bw
+*.bam
+*.bed
+*.bigWig
+
+# run artifacts
+toy/run_log*.txt
+slurm-*.out
+*.bak
+*.bak2
+.gaussian_hmm_histone.py.bak
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

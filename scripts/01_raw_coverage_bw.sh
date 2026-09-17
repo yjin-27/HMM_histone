@@ -13,17 +13,7 @@
 # Produces the raw total coverage bigWigs that feed the Gaussian HMM:
 #   1) bamCoverage at 1 bp, no normalization
 #   2) bigwigCompare mean-binned to 100 bp
-#
-# ChIP-seq-specific notes vs. the ATAC original (parameters kept identical
-# on purpose):
-#   --extendReads 150      : ENCSR000DWD is single-end (Illumina GA, short
-#                            reads); SE reads must be extended toward the
-#                            fragment size. H3K4me3 sonication fragments are
-#                            ~150-250 bp, so 150 remains reasonable.
-#   --ignoreDuplicates and --minMappingQuality 30 : the ENCODE "alignments"
-#                            BAMs are already filtered (dedup + MAPQ), so
-#                            these are mostly no-ops here -- kept to match
-#                            Liebe's script exactly.
+
 
 set -euo pipefail
 

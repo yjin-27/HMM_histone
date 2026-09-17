@@ -7,7 +7,7 @@
 #SBATCH --partition  genomics
 #SBATCH --job-name=gaussian_pyhmm_2-7states_H3K4me3
 #SBATCH --mail-type=END,FAIL
-#SBATCH --mail-user=yuchengjin2027@u.northwestern.edu
+#SBATCH --mail-user=YOUR_EMAIL_HERE
 
 # Adapted from Liebe's pyhhmm.sh.
 # Trains 2-7 state Gaussian HMMs on raw coverage of the two ENCSR000DWD
